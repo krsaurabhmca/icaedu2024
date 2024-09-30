@@ -1,0 +1,121 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.bootbox-close-button {
+    float: right;
+    color: red;
+    background: white;
+    border: none;
+}
+
+body[data-sidebar=dark] .navbar-brand-box {
+    background: #fff;
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2.0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    font-size: 16px;
+}
+
+.navbar-brand-box {
+    padding: 0px 0.5rem;
+}
+
+.cp {
+    text-transform: capitalize;
+}
+
+#page-topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    background-color: #302948;
+    color: #fff;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    box-shadow: 0 .75rem 1.5remrgba(18, 38, 63, .03);
+}
+
+.noti-icon i {
+    font-size: 22px;
+    color: #e1e3e6;
+}
+
+#sidebar-menu {
+    padding: 0px;
+    background: #302948;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a i {
+    color: #ef7f1a;
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+    color: #e1e3e6;
+}
+
+.card {
+    border-top: solid 3px #ef7f1a;
+}
+
+.float {
+    position: fixed;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+.icn {
+    position: absolute;
+    margin-left: -10px;
+}
+
+.card-header {
+    background: #302948;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.avatar-title {
+    background-color: #302948!important;
+}
+.bootbox-close-button{
+  border:none;  
+}
+
+.page-content{
+    padding:70px 20px;
+}
